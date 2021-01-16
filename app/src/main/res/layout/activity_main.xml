@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:background="#B451DD"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_weight="0.3"
+            android:background="#E5DDDD"
+            android:backgroundTint="#BB1CD6"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/ggg"
+            tools:srcCompat="@drawable/ggg" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="245dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="ZODIAC SIGN FINDER"
+            android:textColor="#061A79"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        android:text="Click HERE to enter your DOB"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/datedisp"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/findzodiac"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:paddingTop="100dp"
+        android:shadowColor="#F4F1F1"
+        android:text="FIND MY SIGN"
+        android:textColor="#1E1C1C"
+        android:textSize="28sp" />
+
+</LinearLayout>
